@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+	font-size: 18px; 
+	color: navy; 
+	letter-spacing: 0.03em;
+}
+
+.content {
+	padding: 0px 15px;
+	box-sizing: border-box;
+	width: 970px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+
+}
+
+.top-navigation .links {
+	float: right;
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 18px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.top-navigation .links li:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.top-navigation .links > .active {
+    color: black;
+    font-weight: 600;
+}
+.introduction {
+	background-image: url("img/first-background.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+h1{
+	font-size: 60px;
+}
+h3{
+	font-size: 40px;
+}
+h1, h3 {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	font-weight: lighter;
+}
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 40px;
+	font-weight: lighter;
+	position: relative;
+	top: 50px;
+}
+button {
+	background-color: #f15a29;
+	color: white;
+	font-size: medium;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	position: relative;
+	top: 200px;
+}
+.buttons, .half {
+	display: inline-block;
+}
+.buttons {
+	margin: auto;
+}
+.watch {
+	background-color: none;
+	border: none;
+}
+.cases .devices {
+    width: 32.3333333%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 4em;
+    position: relative;
+    top: 200px;
+}
+.middle {
+	width: cover;
+	height: 600px;
+	background-color: white;
+}
+
+h4 {
+	font-size: medium;
+	color: black;
+}
+.middletext {
+	color: black;
+	position: relative;
+	top: 10px;
+
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 21px 0;
+}
+.social .icons > li {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 20px 5px;
+    border: 1px solid #eaebec;
+    padding: 10px 0;
+    text-align: center;
+}
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #838994;
+}
+.middletwo {
+	background-image: url("img/buy-now-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+
+}
+.descr {
+	font-family: "Gotham A", "Gotham B", Arial, sans-serif;
+	text-align: left;
+	color: black;
+	font-weight: lighter;
+	line-height: 1.538461538;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.column {
+	width: 33.33333333%;
+	position: relative;
+	top: 40px;
+}
+h5 {
+	color: #f15a29;
+	margin-top: 18px;
+	margin-bottom: 18px;
+	font-size: large;
+	text-align: left;
+
+}
+.lastbutton {
+	top: 20px;
+}
